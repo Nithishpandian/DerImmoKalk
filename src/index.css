@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+select option {
+  background-color: #f9fafb;
+  color: #374151; 
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
