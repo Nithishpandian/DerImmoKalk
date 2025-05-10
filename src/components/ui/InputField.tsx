@@ -1,4 +1,3 @@
-import { useLanguage } from "../../contexts/LanguageContext";
 
 interface InputFieldProps {
   label: string;
@@ -19,7 +18,6 @@ function InputField({
   disabled = false,
   step,
 }: InputFieldProps) {
-  const { t } = useLanguage();
 
   return (
     <div className=" flex flex-col gap-1">
