@@ -1,5 +1,3 @@
-"use client";
-
 import { useLanguage } from "../../contexts/LanguageContext";
 import type { CalculationResults } from "../../types";
 import { formatCurrency, formatPercent } from "../../utils/format";

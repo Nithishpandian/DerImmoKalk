@@ -1,5 +1,3 @@
-"use client"
-
 import { useLanguage } from "../../contexts/LanguageContext"
 import type { FormData } from "../../types"
 import { REGIONS } from "../../constants"
