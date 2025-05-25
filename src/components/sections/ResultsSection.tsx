@@ -148,11 +148,11 @@ function ResultCard({ title, icon, items, delay = 0 }: ResultCardProps) {
       transition={{ duration: 0.4, delay }}
       className=" py-4 px-5 border border-stone-300 bg-white shadow rounded-xl"  
     >
-      <h3 className=" flex items-center gap-3 text-xl font-bold text-stone-700 bg-clip-text bg-gradient-to-r mb-3">
+      <h3 className=" flex items-center gap-3 text-xl font-bold text-stone-700 bg-clip-text bg-gradient-to-r mb-3 red-hat-display-900">
         <span>{icon}</span>
         <span>{title}</span>
       </h3>
-      <div className="space-y-2">
+      <div className="space-y-2 red-hat-display-400">
         {items.map((item, index) => (
           <div key={index} className=" space-x-2">
             <span className=" font-medium">{item.label}:</span>

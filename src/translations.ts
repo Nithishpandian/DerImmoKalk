@@ -3,6 +3,46 @@ export const de = {
   appName: "DerImmoKalk",
   appDescription: "Immobilien-Investitionsrechner",
 
+  // Home page
+  heroHeading: "Beurteilen Sie Ihre Investition in deutsche Immobilien",
+  heroDescription:
+    "DerImmoKalk ist ein zweisprachiges Web-Tool, das Ihnen hilft, die Rentabilität von Immobilieninvestitionen in Deutschland zu bewerten. Egal, ob Sie ein lokaler oder internationaler Investor sind – es bietet klare Einblicke in monatliche Cashflows, Steuervorteile und die gesamte finanzielle Performance – komplexe Berechnungen werden einfach, schnell und zugänglich auf Englisch und Deutsch dargestellt.",
+  HeroButtonLabel: "Berechnen",
+  aboutHeading: "Über DerImmoKalk",
+  aboutDescription:
+    "DerImmoKalk ist ein umfassendes Tool, das Immobilieninvestoren in Deutschland dabei unterstützt, die Rentabilität ihrer Investitionen zu bewerten. Unser Rechner berücksichtigt verschiedene Faktoren wie Kaufpreis, Finanzierungsoptionen, steuerliche Auswirkungen und regionale Besonderheiten, um Ihnen genaue Einblicke zu liefern.",
+  aboutCard1Title: "Immobilie wählen",
+  aboutCard1Description:
+    "Geben Sie Ihre Immobiliendaten einschließlich Standort, Preis und Spezifikationen ein.",
+  aboutCard2Title: "Ergebnisse erhalten",
+  aboutCard2Description:
+    "Erhalten Sie detaillierte Berechnungen zu Cashflow, Steuerersparnissen und Gesamtkosten.",
+  aboutCard3Title: "Fundierte Entscheidungen treffen",
+  aboutCard3Description:
+    "Nutzen Sie unsere Einblicke, um fundierte Entscheidungen über Ihre Investitionen zu treffen.",
+  featuresHeading: "Hauptfunktionen",
+  featuresDescription:
+    "DerImmoKalk bietet eine Reihe von Funktionen, die Ihren Prozess zur Bewertung von Immobilieninvestitionen so umfassend und unkompliziert wie möglich gestalten.",
+  featureCard1Heading: "Manueller Modus",
+  featureCard1Description:
+    "Geben Sie Immobiliendetails manuell ein, um individuelle Berechnungen zu erhalten.",
+  featureCard2Heading: "Zweisprachige Unterstützung",
+  featureCard2Description:
+    "Verfügbar in Englisch und Deutsch für bessere Zugänglichkeit.",
+  featureCard3Heading: "Umfassende Analyse",
+  featureCard3Description:
+    "Detaillierte Aufschlüsselung von Kosten, Cashflow und steuerlichen Auswirkungen.",
+  ctaHeading: "Bereit, Ihre Investition zu bewerten?",
+  ctaDescription:
+    "DerImmoKalk ist Ihr Tool zur Bewertung der Rentabilität von Immobilieninvestitionen in Deutschland. Mit unserem benutzerfreundlichen Rechner können Sie schnell Immobiliendaten eingeben, den Cashflow analysieren und steuerliche Auswirkungen verstehen – alles an einem Ort. Ob erfahrener Investor oder Einsteiger – DerImmoKalk macht komplexe Immobilienberechnungen einfach und liefert Ihnen die nötigen Einblicke für kluge Entscheidungen.",
+  ctaButtonLabel: "Jetzt berechnen",
+  footerDescription:
+    "DerImmoKalk ist ein zweisprachiges Tool zur Bewertung der Rentabilität von Immobilieninvestitionen in Deutschland. Egal, ob Sie Erstkäufer oder erfahrener Investor sind – unsere Plattform vereinfacht komplexe Berechnungen und liefert klare Einblicke in Cashflow und Steuervorteile – auf Englisch und Deutsch.",
+  navHeading: "Navigation",
+  navHome: "Startseite",
+  navCalculate: "Berechnen",
+  copyright: `&copy; ${new Date().getFullYear()} DerImmoKalk. Alle Rechte vorbehalten.`,
+
   // Language
   languageDE: "Deutsch",
   languageEN: "Englisch",
@@ -88,12 +128,52 @@ export const de = {
   // Calculation
   calculate: "Berechnen",
   reset: "Zurücksetzen",
-}
+};
 
 export const en = {
   // Header
   appName: "DerImmoKalk",
   appDescription: "Property Investment Calculator",
+
+  // Home page
+  heroHeading: "Evaluate Your German Property Investment",
+  heroDescription:
+    "DerImmoKalk is a bilingual web tool designed to help you assess the profitability of real estate investments in Germany. Whether you're a local or international investor, it provides clear insights into monthly cash flow, tax benefits, and overall financial performance—making complex calculations simple, fast, and accessible in both English and German.",
+  HeroButtonLabel: "Calculate",
+  aboutHeading: "About DerImmoKalk",
+  aboutDescription:
+    "DerImmoKalk is a comprehensive tool designed to help real estate investors in Germany assess the profitability of their investments. Our calculator takes into account various factors including purchase price, financing options, tax implications, and regional specifics to provide you with accurate insights.",
+  aboutCard1Title: "Choose Property",
+  aboutCard1Description:
+    "Input your property details including location, price, and specifications.",
+  aboutCard2Title: "Get Results",
+  aboutCard2Description:
+    "Receive detailed calculations on cash flow, tax savings, and total costs.",
+  aboutCard3Title: "Make Informed Decisions",
+  aboutCard3Description:
+    "Use our insights and make informed decisions about your investments.",
+  featuresHeading: "Key Features",
+  featuresDescription:
+    "DerImmoKalk offers a range of features designed to make your real estate investment evaluation process as comprehensive and straightforward as possible.",
+  featureCard1Heading: "Manual Mode",
+  featureCard1Description:
+    "Input property details manually for customized calculations.",
+  featureCard2Heading: "Bilingual Support",
+  featureCard2Description:
+    "Available in both English and German for wider accessibility.",
+  featureCard3Heading: "Comprehensive Analysis",
+  featureCard3Description:
+    "Detailed breakdown of costs, cash flow, and tax implications.",
+  ctaHeading: "Ready to Evaluate Your Investment?",
+  ctaDescription:
+    "DerImmoKalk is your go-to tool for assessing the profitability of real estate investments in Germany. With our easy-to-use calculator, you can quickly input property details, analyze cash flow, and understand tax implications—all in one place. Whether you're a seasoned investor or just starting out, DerImmoKalk simplifies the complex world of real estate calculations, providing you with the insights you need to make informed decisions.",
+  ctaButtonLabel: "Start Calculating",
+  footerDescription:
+    "DerImmoKalk is a bilingual tool that helps individuals evaluate the profitability of real estate investments in Germany. Whether you're a first-time buyer or an experienced investor, our platform simplifies complex calculations and provides clear insights into cash flow and tax benefits — in both English and German.",
+  navHeading: "Navigation",
+  navHome: "Home",
+  navCalculate: "Calculate",
+  copyright: `&copy; ${new Date().getFullYear()} DerImmoKalk. All rights reserved.`,
 
   // Language
   languageDE: "German",
@@ -180,4 +260,4 @@ export const en = {
   // Calculation
   calculate: "Calculate",
   reset: "Reset",
-}
+};

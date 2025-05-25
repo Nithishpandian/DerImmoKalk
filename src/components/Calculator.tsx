@@ -51,7 +51,7 @@ function Calculator() {
   };
 
   return (
-    <div className=" sm:px-6 md:px-12">
+    <div className=" py-8 sm:px-6 md:px-12">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -97,14 +97,14 @@ function Calculator() {
           >
             <button
               onClick={handleReset}
-              className=" border border-emerald-600 py-2 px-4 rounded-md bg-white text-emerald-600 font-semibold flex items-center cursor-pointer"
+              className=" border border-stone-800 py-2 px-4 rounded-md bg-white text-stone-800 font-semibold flex items-center cursor-pointer"
             >
               {t.reset}
             </button>
             <button
               onClick={handleCalculate}
               disabled={isCalculating}
-              className=" border border-emerald-600 bg-emerald-600 py-2 px-4 rounded-md text-white font-semibold flex items-center cursor-pointer"
+              className=" border border-stone-800 bg-stone-800 py-2 px-4 rounded-md text-white font-semibold flex items-center cursor-pointer"
             >
               {isCalculating ? (
                 <>

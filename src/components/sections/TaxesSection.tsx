@@ -14,9 +14,9 @@ function TaxesSection({ data, onChange }: TaxesSectionProps) {
 
   return (
     <div className=" flex flex-col gap-4">
-      <h2 className=" font-bold text-xl text-stone-700">{t.taxes}</h2>
+      <h2 className=" font-bold text-xl text-stone-700 red-hat-display-900">{t.taxes}</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 red-hat-display-400">
         <InputField
           label={t.grossIncome}
           type="number"
@@ -39,8 +39,8 @@ function TaxesSection({ data, onChange }: TaxesSectionProps) {
         />
       </div>
 
-      <div className="mt-8">
-        <h3 className="text-lg font-bold text-stone-700 mb-4">
+      <div className="mt-2">
+        <h3 className="text-lg font-bold text-stone-700 mb-1">
           {t.taxRatesReference}
         </h3>
         <div className="overflow-x-auto">
